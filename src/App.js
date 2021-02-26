@@ -1,10 +1,12 @@
-import './App.css';
-import { Container } from 'react-bootstrap'
+import './styles/App.scss';
+import Header from './Header';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
-      <Container>Hello. Github Jobs</Container>
+      <Header />
+      <Home />
     </div>
   );
 }
