@@ -8,7 +8,7 @@ import {
 const Header = () => {
   return (
       <Container className="my-4">
-          <h4>Github Jobs</h4>
+          <h4><span className="title">Github</span> Jobs</h4>
     <section className="header my-4">
         <Form>
           <InputGroup >

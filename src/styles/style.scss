@@ -1,0 +1,17 @@
+.title {
+    font-weight: 600;
+}
+
+.header {
+    background: url('../images/githubBg.png') no-repeat top center;
+    background-position: cover;
+    border-radius: 8px;
+    padding: 3rem 1rem;
+}
+.cards {
+    font-size: .8rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+}

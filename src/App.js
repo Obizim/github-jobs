@@ -1,13 +1,16 @@
 import './styles/App.scss';
-import Header from './Header';
-import Home from './Home';
+import Header from './components/Header';
+import Home from './pages/Home';
+import FetchDataContext from './context/FetchDataContext';
 
 function App() {
   return (
+    <FetchDataContext>
     <div className="App">
       <Header />
       <Home />
     </div>
+    </FetchDataContext>
   );
 }
 
