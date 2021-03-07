@@ -59,7 +59,7 @@ const JobDetail = () => {
               className="company_logo"
             />
             <p>
-              {job.company} <br />{" "}
+              {job.company} <br />
               <span className="text-muted">{job.location}</span>
             </p>
           </div>
